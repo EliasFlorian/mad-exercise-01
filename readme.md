@@ -16,10 +16,19 @@
 // example code snippet
 val a: String = "value" // non-null type
 ```
+### Answer:
+Kotlin's design ensures that null values are not permissible by default. The language's type system is structured to differentiate between references that can hold null (known as nullable references) and those that cannot (referred to as non-nullable references). If the use of null values is necessary, Kotlin requires explicit declaration through nullable types.
+
+examples see Kotlin docs: https://kotlinlang.org/docs/null-safety.html
 
 ### What are lambda expressions and higher order functions in Kotlin? Why would you store a function inside a variable? (0,5 points)
 
 <span style="color:blue">Provide your answer here!</span>
+
+### Answer:
+Lambda expressions are concise ways to write functions that can be passed around. Higher-order functions can take functions as arguments or return them, making code more flexible. Storing a function in a variable allows for dynamic execution of code, useful for callbacks or event handling.
+
+examples see Kotlin docs: https://kotlinlang.org/docs/lambdas.html#lambda-expressions-and-anonymous-functions
 
 ### Provide a solution for the following number guessing game inside `App.kt`. (3 points)
 
